@@ -1,0 +1,27 @@
+$ curl https://localhost/HackTheBoxNight/Newsletter/Oct2020.pdf
+$ cat Oct2020.pdf
+# Hack the Box Night Newsletter – October 2020
+Hello fellow WGU students!  Those of us involved in HTBN are excited to bring you the very first Hack the Box Night Newsletter.  Inside each newsletter we will discuss our HTBN topics for the month, highlight any competitions or upcoming events, tips and tricks, and more.  We hope that you find this information useful!
+----------------------------------------------------------------------
+Weekly HTBN Schedule
+10/03/2020 – TryHackMe Learn Linux
+10/10/2020 – TryHackMe Linux Challenges
+10/17/2020 – HackTheBox Blunder (Linux system)
+10/24/2020 – HackTheBox SneakyMailer (Linux system)
+10/31/2020 – Off for Halloween 
+----------------------------------------------------------------------
+Upcoming Competitions and Events
+National Cyber League Competition
+•	Gym is currently open for practice
+•	Oct 12-19 is Preseason
+•	Oct 23-25 Individual Game
+•	Nov 6 – 8 Team Game
+----------------------------------------------------------------------
+Tips / Tricks / Pro ninja moves
+Find command:  You can search for the name of a file by using this syntax:
+$ find -name “name of file” -type f
+The -type option will allow you to use d for directory, or f for file.
+TO find a directory instead, you can issue the following syntax:
+$ find / -type d -name “name of directory”
+This will begin the search at the root directory and look for a folder given the specified name
+----------------------------------------------------------------------
